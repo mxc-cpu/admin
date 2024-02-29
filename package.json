@@ -1,0 +1,34 @@
+{
+  "name": "blogspace",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ant-design/icons-vue": "^7.0.1",
+    "@wangeditor/editor-for-vue": "^5.1.12",
+    "axios": "^1.6.0",
+    "bulma": "^0.9.4",
+    "install": "^0.13.0",
+    "jose": "^5.1.0",
+    "js-base64": "^3.7.6",
+    "npm": "^10.3.0",
+    "pinia": "^2.1.7",
+    "sass": "^1.69.5",
+    "vicons": "^0.0.1",
+    "vue": "^3.3.4",
+    "vue-cropper": "^1.1.1",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@vicons/tabler": "^0.12.0",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "naive-ui": "^2.37.3",
+    "vfonts": "^0.0.3",
+    "vite": "^4.4.5"
+  }
+}

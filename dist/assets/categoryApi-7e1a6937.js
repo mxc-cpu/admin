@@ -1,0 +1,1 @@
+import{E as a}from"./index-e5993185.js";const r=async()=>await a.get("/Category/GetCategoryNameList"),o=async t=>await a.post("/Category/pageQueryByList",t),y=async t=>await a.get("/Category/GetCategoryNameById/"+t);export{o as A,y as B,r as C};

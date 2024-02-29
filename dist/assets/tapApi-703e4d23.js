@@ -1,0 +1,1 @@
+import{E as t}from"./index-e5993185.js";const p=async a=>await t.post("/Tap/AddTap/",a),n=async a=>await t.post("/Tap/DelTap",a),o=async a=>await t.get("/Tap/FindAll/"+a);export{p as A,n as D,o as G};

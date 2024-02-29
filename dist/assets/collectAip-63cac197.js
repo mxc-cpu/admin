@@ -1,0 +1,1 @@
+import{E as e}from"./index-e5993185.js";const o=t=>e.post("/Collect/YetCollect/",t),c=t=>e.post("/Collect/PageQuery/",t),s=t=>e.post("/Collect/AddCollect/",t),r=t=>e.post("/Collect/DelCollect/",t),C=t=>e.get("/Collect/DelCollectById/"+t);export{s as A,r as D,c as P,o as Y,C as a};
