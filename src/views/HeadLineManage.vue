@@ -534,7 +534,7 @@
   let rules = {
     Title: [
       { required: true, message: "请输入标题", trigger: "blur" },
-      { min: 2, max: 6, message: "标题长度在2-6个字符", trigger: "blur" },
+      { min: 2, max: 20, message: "标题长度在2-20个字符", trigger: "blur" },
     ],
     DescriptionURL: [
       { required: true, message: "请输入链接", trigger: "blur" },

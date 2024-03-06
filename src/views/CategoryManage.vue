@@ -524,7 +524,7 @@ const formRef = ref(null);
 let rules = {
   CategoryName: [
     { required: true, message: "请输入标题", trigger: "blur" },
-    { min: 2, max: 6, message: "标题长度在2-6个字符", trigger: "blur" },
+    { min: 2, max: 15, message: "标题长度在2-15个字符", trigger: "blur" },
   ],
   CategoryDescription: [
     { required: true, message: "请输入描述", trigger: "blur" },

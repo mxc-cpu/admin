@@ -25,7 +25,7 @@ export const UserLoginStore = defineStore("StoreLogin", {
       const decoded = jwtToken.decodeJwt(token);
       //保存用户id
       this.userId = Number(decoded.id);
-
+console.log("id",this.userId)
       await GetAdmin(this.userId).then(async (res) => {
         if (res.data.success == true) {
           loginState().name1 = await res.data.data.name;
@@ -34,6 +34,7 @@ export const UserLoginStore = defineStore("StoreLogin", {
           loginState().account = await res.data.data.account;
           await console.log("role", this.Role);
           await router.replace("/Admin");
+          console.log("id",this.userId)
         } else {
           console.log("失败");
         }

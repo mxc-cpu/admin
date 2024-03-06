@@ -93,7 +93,7 @@ onBeforeUpdate(async () => {
   avatarUrl.value = userState.avatarUrl;
 });
 onMounted(async () => {
- 
+  userState.changeState()
   state.value =  userState.InLogin;
   Name.value = userState.name1;
   userId.value = userState.userId;

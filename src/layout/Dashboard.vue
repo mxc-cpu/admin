@@ -96,7 +96,7 @@ async function routeInite() {
         },
         { default: () => "个人中心" }
       ),
-    key: "adminuser",
+    key: "AdminInfo",
   });
 
   
