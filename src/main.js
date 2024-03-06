@@ -41,11 +41,11 @@ const result = (await GetRoleRoutePath(store.Role)).data.data;
    router.addRoute("Admin", {
      path: e.path,
      name: e.name,
-     component: () => import(`../views${e.component}`),
+     component: () => import(`../src/views${e.component}`),
    });
  });
+ console.log("路由表",router)
 }
-
 addRoute();
  
 
